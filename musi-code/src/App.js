@@ -11,7 +11,7 @@ import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 
 function App() {
-  const [authenticated, setAuthenticated] = useState(false);
+  const [authenticated, setAuthenticated] = useState(true);
 
   function handleAuthentication() {
     setAuthenticated(true);
@@ -24,7 +24,7 @@ function App() {
 
   return (
     <Router>
-      <Navbar onLogout={handleLogout} />
+      <Navbar onLogout={handleLogout} authenticated={authenticated}/>
       <Container>
         <Routes>
           <Route

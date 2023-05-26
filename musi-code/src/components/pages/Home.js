@@ -4,7 +4,7 @@ import ProjectForm from "../project/ProjectForm";
 import styles from "./Home.module.css";
 import fundo from "../../img/fundo.jpg";
 
-function Home({ onAuthentication }) {
+function  Home({ onAuthentication }) {
   return (
     <>
       <div className={styles.code}>

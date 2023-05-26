@@ -2,6 +2,13 @@
 
 # dependencies
 /node_modules
+/barramento-de-eventos/node_modules
+/cifra/node_modules
+/consulta/node_modules
+/musi-code/node_modules
+/musica/node_modules
+/gerenciar-usuario/node_modules
+
 /.pnp
 .pnp.js
 
